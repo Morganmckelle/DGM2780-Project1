@@ -1,0 +1,138 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.navbar{
+    margin-bottom:0;
+}
+   body{
+    
+                
+            
+            
+   }
+.affix {
+      top: 0;
+      width: 100%;
+  }
+  
+.carousel-inner>.item>a>img{
+    width:100%;
+    height:auto;
+}
+
+  .container-fluid {
+	  padding-left:0;
+	  padding-right:0;
+        margin-right: auto;
+    margin-left: auto;
+}
+.navbar-inverse{
+	z-index:20;
+	background: #4B4B4B;
+	border:none;
+		
+}
+.navbar-brand{
+	padding-right: 40px;
+	
+}
+.navbar-brand{
+	font-size: 20px;
+}
+.navbar-inverse .input-group{
+	max-width:200px;
+	padding-top:8px;
+	padding-right:10px;
+}
+@media (max-width: 987px){
+	.input-group{
+		display:none;
+	}
+}
+    @media (max-width: 587px){
+	.carousel-caption{
+		display:none;
+	}
+}
+.carousel-control.left {
+	z-index: 100;
+}
+.carousel-control.right {
+	z-index: 100;
+}
+
+.carousel-caption{
+	margin-bottom:50px;
+	font-size: 20px;
+
+}
+@media screen and (min-width: 768px){
+.carousel-caption {
+    right: 70%;
+    left: 10%;
+    bottom: 45%;
+    top:20%;
+}
+}
+.col-md-4{
+    text-align: center;
+}
+
+.gi-5x {
+    font-size: 5em;
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:50px;
+    font-family: 'Pacifico', cursive;
+}
+.whatweoffer.row{
+	max-height:300px;
+}
+.whatweoffer img{
+	height:auto;
+}
+.whatweoffer h3{
+    text-align:center;
+    font-family: Pavanam;
+    font-size: 24px;
+}
+ 
+.col-md-3{
+    padding-bottom: 50px;
+}
+.col-sm-12 .img-thumbnail{
+	width:100%;
+	height: auto;
+}
+
+
+/*------ Yoga Class Code-----*/
+@media (max-width: 592px){ 
+    .col-md-3{
+        padding:0px 20%;
+    }
+    img.Offer{
+        width:80%;
+    }
+    }
+.col-md-8 img{
+    width:100%;
+	box-shadow: 2px 2px 2px grey;
+}
+footer{	
+	
+	margin-top:50px;
+    
+    
+}
+footer p{
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
